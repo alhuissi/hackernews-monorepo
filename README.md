@@ -45,6 +45,8 @@ To run tests for the server component, you can use the following command:
 docker-compose exec server npm test
 ```
 
+This mainly tests the HnFeedService to ensure it correctly fetches, processes, and manages Hacker News articles within a database. It uses mocked API responses and database interactions to isolate and verify each functionality.
+
 ### Running Linters
 
 To ensure code quality and consistency, we use linters for both the server and client. Run the following commands to execute linters:
