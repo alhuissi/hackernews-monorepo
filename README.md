@@ -61,10 +61,6 @@ docker-compose exec server npm run lint
 docker-compose exec client npm run lint
 ```
 
-## Continuous Integration (CI)
-
-This project uses GitHub Actions for continuous integration, automatically running tests and linters on push or pull requests. You can view the workflow results in the "Actions" tab of the GitHub repository.
-
 ### GitHub Actions Configuration
 
 The CI workflow is defined in `.github/workflows/nodejs.yml` for the server. It sets up the project, installs dependencies, and runs tests and linters.
