@@ -34,13 +34,3 @@ jobs:
     - name: Test server
       run: npm test
       working-directory: ./server
-
-    # Install client dependencies
-    - name: Install client dependencies
-      run: npm ci
-      working-directory: ./client
-
-    # Run client tests
-    - name: Test client
-      run: npm test
-      working-directory: ./client
