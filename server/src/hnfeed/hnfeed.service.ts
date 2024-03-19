@@ -25,7 +25,7 @@ export class HnFeedService implements OnModuleInit {
         where: { objectID: item.objectID },
       });
       if (!articleExists) {
-        // If story_title is null, the use item.title. If both are null, discard
+        // If story_title is null, then use item.title. If both are null, discard
         if (item.story_title || item.title) {
           const article = this.articlesRepository.create({
             objectID: item.objectID,
