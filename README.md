@@ -1,5 +1,7 @@
 # Hacker News Feed Project
 
+![Screenshot 2024-03-19 at 07 56 44](https://github.com/alhuissi/hackernews-monorepo/assets/30061055/1b0dee9a-654c-44b8-a8bd-ece4ac764d91)
+
 Hacker News Feed Project
 
 ## Prerequisites
