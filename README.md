@@ -55,12 +55,6 @@ To ensure code quality and consistency, we use linters for both the server and c
 docker-compose exec server npm run lint
 ```
 
-- **Client:**
-
-```bash
-docker-compose exec client npm run lint
-```
-
 ### GitHub Actions Configuration
 
 The CI workflow is defined in `.github/workflows/nodejs.yml` for the server. It sets up the project, installs dependencies, and runs tests and linters.
