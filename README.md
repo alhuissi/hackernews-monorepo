@@ -68,5 +68,4 @@ The CI workflow is defined in `.github/workflows/nodejs.yml` for the server. It 
 ## Additional Notes
 
 - **Database Initialization**: On the first run, the server application automatically initializes the database schema based on the entity definitions, thanks to TypeORM's `synchronize: true` setting. This setting should probably be set off in production. After that, the backend fetches the data from Hacker News once every hour.
-- **Manual Database Actions**: If you need to perform manual actions on the database, such as inspecting tables or records, you can connect to the PostgreSQL container using tools like pgAdmin or command-line utilities.
-- **Refreshing Data**: To manually trigger data refresh from the Hacker News API, you can restart the server container, which will execute the data fetching logic on startup.
+
