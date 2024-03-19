@@ -10,8 +10,6 @@ Hacker News Feed Project
 
 ## Cloning the Repository
 
-1. Clone the project repository from GitHub:
-
 ```bash
 git clone https://github.com/alhuissi/hackernews-monorepo
 cd hackernews-monorepo
