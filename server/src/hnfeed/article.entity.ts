@@ -19,7 +19,7 @@ export class Article {
   @Column()
   title: string;
 
-  @Column({ nullable: true }) // story_text can also be optional
+  @Column({ nullable: true })
   storyText: string;
 
   @Column({ nullable: true })
